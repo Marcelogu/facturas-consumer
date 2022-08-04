@@ -1,0 +1,27 @@
+{
+  "name": "facturas-consumer",
+  "version": "1.0.0",
+  "description": "Permite enviar mail personalizados una vez recibido un mensaje de apache kafka",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "kafkajs": "^2.1.0",
+    "mongodb": "^4.8.1",
+    "mongoose": "^6.5.0",
+    "nodemailer": "^6.7.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcelogu/facturas-consumer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marcelogu/facturas-consumer/issues"
+  },
+  "homepage": "https://github.com/Marcelogu/facturas-consumer#readme"
+}
